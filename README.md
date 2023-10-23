@@ -4,6 +4,9 @@ User is prompted to enter an inital velocity and angle and a window will appear 
 Code uses pygame library in order to draw a ball bouncing on the screen
 Upon approaching the edges of the screen, the ball will bounce off
 
+
+To run the code play drawBall.py
+
 Initial Velocity should be input as an integer in pixels per second
 
 Angle should be input as an integer measured in degrees
