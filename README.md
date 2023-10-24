@@ -7,7 +7,9 @@ Upon approaching the edges of the screen, the ball will bounce off
 
 To run the code play drawBall.py
 
-Initial Velocity should be input as an integer in pixels per second
+Initial Velocity should be input as an integer measured in pixels per second
+
+Acceleration should be input as an integer measured in pixels per second per second
 
 Angle should be input as an integer measured in degrees
 

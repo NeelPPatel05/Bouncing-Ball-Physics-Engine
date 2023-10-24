@@ -6,13 +6,15 @@ import sys
 running = True
 
 #Asking user for inputs
-print('Enter initial velocity (pixels per second)')
+print('Enter initial velocity (pixels per second):')
 velo = input()
-print('Enter angle in degrees (pixels per second)')
+print('Enter acceleration (pixels per second per second):')
+accel = input()
+print('Enter angle in degrees:')
 angle = input()
 
 #Creating a ball in ballBounce
-ball = BallBounce(int(velo), int(angle))
+ball = BallBounce(int(velo), int (accel), int(angle))
    
 
 # Initialize Pygame
